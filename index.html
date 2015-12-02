@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Exo formulaire</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form method="post" action="#">
+
+			<p><label for="login">Login <span>*</span></label><br/>
+			<input type="password" id="login" name="login" required autofocus maxlength="12" size="30"></p>
+			
+			<p><label for="email">Email <span>*</span></label><br/>
+			<input type="email" id="email" name="email" required size="30"></p>
+			
+			<p><label for="age">&#194;ge <span>*</span></label><br/>
+			<input type="number" id="age" name="age" min="18" max="" required size="30"></p>
+			
+			<p><label for="tel">Téléphone</label><br/>
+			<input type="tel" id="tel" name="tel" size="30"></p>
+			
+			<p><input type="checkbox" required>J'accepte les CGU du site <span>*</span></p>
+			<p><input type="submit" value="Inscription"></p>
+		</form>
+
+	</body>
+</html>

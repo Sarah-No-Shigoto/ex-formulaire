@@ -1,0 +1,20 @@
+form {
+	box-sizing:border-box;
+	background-color: #bbb;
+	border-radius: 20px;
+	width: 23%;
+	min-width: 310px;
+	margin: auto;
+	text-align: left;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+span {
+	color: red;
+}
+
+p:last-child input {
+	color: grey;
+}
+
